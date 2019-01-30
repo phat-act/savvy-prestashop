@@ -1,4 +1,4 @@
-<h3>savvytech.com Integration for Prestashop (v1.6, v1.7)</h3>
+<h3>Savvytech.com Integration for Prestashop (v1.6, v1.7)</h3>
 This API allows to accept <b>Ethereum</b>, <b>Bitcoin</b>, <b>Bitcoin Cash</b>, <b>Bitcoin Gold</b>, <b>Litecoin</b>, <b>Dash</b> and <b>Ethereum Classic</b> payments in a Prestashop. More details can be found on our website: https://www.savvytech.com
 <h3>API Keys</h3>
 In order to use the system you need an API key. Getting a key is free and easy, sign up here:
