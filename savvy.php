@@ -25,7 +25,7 @@ class Savvy extends PaymentModule
     {
         $this->name = 'savvy';
         $this->tab = 'payments_gateways';
-        $this->version = '0.7.5';
+        $this->version = '1.0.1';
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
         $this->author = 'savvy';
         $this->controllers = array('validation', 'currencies', 'payment', 'callback', 'status');

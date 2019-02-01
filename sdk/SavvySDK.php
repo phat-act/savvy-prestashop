@@ -6,8 +6,8 @@ class SavvySDK
     public static $rates = null;
     public static $currencies = null;
 
-    protected $baseUrl = 'https://api.paybear.io/v3';
-    protected $testnetUrl = 'https://api.test.paybear.io/v3';
+    protected $baseUrl = 'https://api.savvytech.com/v3';
+    protected $testnetUrl = 'https://api.test.savvytech.com/v3';
 
     protected $context;
 
