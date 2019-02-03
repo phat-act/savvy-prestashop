@@ -27,7 +27,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
 
 1. Make sure you have Prestashop installed. Versions 1.6 and 1.7 are supported. We recommend running the latest version.
 2. Download the latest version of the integration: https://github.com/savvytechcom/savvy-prestashop/releases/latest
-3. Open Prestashop Admin - Extensions - Installer
+3. Open Prestashop Admin - Improve - Modules - Modules & Services
 4. Click {Upload a Module} and select the ZIP file of the plugin
 5. Find the module you just installed and click {Configure}
 6. Enter your API keys. Click Save at the bottom.
