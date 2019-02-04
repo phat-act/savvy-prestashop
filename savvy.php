@@ -238,9 +238,16 @@ class Savvy extends PaymentModule
             ),
             array(
                 'type' => 'text',
+                'required' => true,
                 'label' => 'API Key (Testnet)',
                 'name' => 'savvy_api_testnet',
                 'desc' => 'Testnet API key. Make sure that you enabled Testnet'
+            ),
+            array(
+                'type' => 'text',
+                'label' => 'API Key (Testnet Public)',
+                'name' => 'savvy_api_pubtestnet',
+                'desc' => 'Public Testnet API key.'
             ),
             array(
                 'type' => 'text',
@@ -325,6 +332,7 @@ class Savvy extends PaymentModule
         $helper->fields_value['savvy_api_secret'] = Configuration::get('SAVVY_API_SECRET');
         $helper->fields_value['savvy_api_public'] = Configuration::get('SAVVY_API_PUBLIC');
         $helper->fields_value['savvy_api_testnet'] = Configuration::get('SAVVY_API_TESTNET');
+        $helper->fields_value['savvy_api_pubtestnet'] = Configuration::get('SAVVY_API_PUBTESTNET');
         $helper->fields_value['savvy_max_underpayment'] = Configuration::get('SAVVY_MAX_UNDERPAYMENT');
         $helper->fields_value['savvy_min_overpayment'] = Configuration::get('SAVVY_MIN_OVERPAYMENT');
         $helper->fields_value['savvy_lock_address_timeout'] = Configuration::get('SAVVY_LOCK_ADDRESS_TIMEOUT');
