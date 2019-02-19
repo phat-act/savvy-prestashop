@@ -39,6 +39,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
 1. Download the latest version of the integration: https://github.com/savvyio/savvy-prestashop/releases/latest
 2. Go the module list, and click add a new module
 3. Click on choose a file and then on upload this module. You have to upload the module zip file of the new module version.
+4. Clear Cache
 
 <h3>Get Help</h3>
 Start with our <a href="https://help.savvy.io">Knowledge Base</a> and <a href="https://help.savvy.io/frequently-asked-questions">FAQ</a>.

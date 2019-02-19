@@ -25,9 +25,9 @@ class Savvy extends PaymentModule
     {
         $this->name = 'savvy';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.1';
+        $this->version = '1.0.3';
         $this->ps_versions_compliancy = array('min' => '1.6', 'max' => _PS_VERSION_);
-        $this->author = 'savvy';
+        $this->author = 'Savvy';
         $this->controllers = array('validation', 'currencies', 'payment', 'callback', 'status');
         $this->is_eu_compatible = 1;
 
@@ -37,7 +37,7 @@ class Savvy extends PaymentModule
         $this->bootstrap = true;
         parent::__construct();
 
-        $this->displayName = $this->l('Crypto Payments by Savvytech.com');
+        $this->displayName = $this->l('Crypto Payments by Savvy.io');
         $this->description = $this->l('Allows to accept crypto payments such as Bitcoin (BTC), Ethereum (ETH) and other crypto currencies');
 
         if (!count(Currency::checkPaymentCurrencies($this->id))) {

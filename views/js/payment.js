@@ -1,7 +1,7 @@
 $(function () {
-    var $container = $('#paybear');
-    window.paybear = new Paybear({
-        button: '#paybear-all',
+    var $container = $('#savvy');
+    window.savvy = new Savvy({
+        button: '#savvy-all',
         fiatValue: $container.data('fiat-value'),
         currencies: $container.data('currencies'),
         statusUrl: $container.data('status'),
@@ -19,6 +19,6 @@ $(function () {
     var autoopen = $container.data('autoopen');
 
     if (autoopen && autoopen === true) {
-        $('#paybear-all').trigger('click');
+        $('#savvy-all').trigger('click');
     }
 });

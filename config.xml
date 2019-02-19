@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>savvy</name>
-    <displayName><![CDATA[Crypto Payments by Savvytech.com]]></displayName>
-    <version><![CDATA[1.0.1]]></version>
+    <displayName><![CDATA[Crypto Payments by Savvy.io]]></displayName>
+    <version><![CDATA[1.0.3]]></version>
     <description><![CDATA[Allows to accept crypto payments such as Bitcoin (BTC), Ethereum (ETH) and other crypto currencies]]></description>
     <author><![CDATA[savvy]]></author>
     <tab><![CDATA[payments_gateways]]></tab>
